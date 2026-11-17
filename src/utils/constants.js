@@ -6,21 +6,21 @@ export const PERSONAL_INFO = {
     tagline: "Crafting seamless digital experiences with modern web technologies",
     resume: "/YashJain_FullStackDeveloper_Resume.pdf",
     bio: [
-        "I'm a pasionate React Developer with over 3 years of experience building scalable, performant web applications. I specialize in creating intuitive user interfaces that combine beautiful design with exceptional functionality.",
+        "I'm a pasionate React Developer with over 1 year of experience building scalable, performant web applications. I specialize in creating intuitive user interfaces that combine beautiful design with exceptional functionality.",
         "My expertise spans the entire frontend ecosystem, from React and Next.js to TypeScript and modern CSS frameworks. I'm committed to writing clean, maintainable code and staying current with the latest web technologies.",
         "When I'm not coding, you'll find me contributing to open-source project, writing technical articles, or exporing new design trends."
     ]
 };
 
 export const SOCIAL_LINKS = {
-    github: "#",
-    linkedin: "#",
+    github: "https://github.com/averageCoder0267",
+    linkedin: "https://www.linkedin.com/in/yashjain0202/",
     twitter: "#",
     dribble: "#"
 };
 
 export const STATS = [
-    { label: "Years Experience", value: "3+" },
+    { label: "Years Experience", value: "1+" },
     { label: "Projects Completed", value: "50+" },
     { label: "Technologies", value: "15+" },
     { label: "Clients Satisfaction", value: "98%" },

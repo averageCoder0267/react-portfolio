@@ -14,8 +14,8 @@ export const projects = [
             "MongoDB"
         ],
         metrics: "Sales Pipeline • AI Insights",
-        demoUrl: null,
-        githubUrl: null
+        demoUrl: "https://ai-powered-crm-one.vercel.app/",
+        githubUrl: "https://github.com/averageCoder0267/ai-powered-crm"
     },
     // {
     //     id: 2,

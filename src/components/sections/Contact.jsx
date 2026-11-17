@@ -25,7 +25,8 @@ export default function ContactSection() {
     function handleSubmit(event) {
         event.preventDefault();
         if (!formData.name || !formData.email || !formData.message) {
-            setStatus({ type: "error", message: "Please fill in all fields" });
+            // setStatus({ type: "error", message: "Please fill in all fields" });
+            setStatus({ type: "error", message: "Sorry, Form is Under Development. Feel Free to reach out via mail." });
             return;
         }
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -33,7 +34,8 @@ export default function ContactSection() {
             setStatus({ type: "error", message: "Please enter a valid email" });
             return;
         }
-        setStatus({ type: "success", message: "Message sent successfully! I\'ll get back to you soon." });
+        // setStatus({ type: "success", message: "Message sent successfully! I\'ll get back to you soon." });
+        setStatus({ type: "error", message: "Sorry, Form is Under Development. Feel Free to reach out via mail." });
         setFormData({ name: "", email: "", message: "" });
         setTimeout(() => setStatus({ type: "", message: "" }), 5000);
     };
